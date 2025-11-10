@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Registration at SCOPE INDIA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #001f4d;
+      color: white;
+      padding: 40px;
+
+    }
+
+    header .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    header .logo span {
+      color: #f6b800;
+    }
+
+    nav a {
+      margin: 0;
+      color: white;
+      margin: 0 10px;
+      padding: 10px;
+      margin: 10px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+.right-panel h3 {
+      text-align: center;
+      color: #02193c;
+      font-size: 22px;
+    }
+
+    .right-panel h1 {
+      color: orange;
+      background-color: #001f4d;
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-align: center;
+      margin: 5px;
+      padding: 5px;
+
+    }
+
+    .right-panel h2 {
+      color: #001f4d;
+      background-color: white;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .right-panel p {
+      color: #001f4d;
+      font-size: 20px;
+  
+    }
+    .reg{
+        background-color: #001f4d;
+    }
+    .form-container {
+      color: #001f4d;
+      border-radius: 10px;
+      padding: 35px;
+      margin-top: 40px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    .form-title {
+      color: #f4b400;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: 600;
+      margin: 10px;
+    }
+    .btn{
+      color: #000;
+      display: block;
+      margin:5px auto;
+      font-weight: bold;
+      text-align: center;
+      justify-content: center;
+    }
+   .btn-custom{
+    background-color: #f4b400;
+    color: #000;
+    border: none;
+    padding: 20px;
+    margin: 15px;
+    border-style: groove;
+
+border-radius: 5px;
+   }
+   .btn-custom:hover{
+    background-color: #f4b400;
+   }
+    .box{
+        border-radius: 15px;
+        background-color: #f8f9fa;
+    }
+    
+.footer{
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  background-color: blue;
+}
+.line{
+  padding: 5px;
+}
+
+  </style>
+</head>
+<body>
+
+     <header>
+    <div class="logo">SCOPEINDIA
+    </div>
+    <nav>
+      <a href="home.html">HOME</a>
+      <a href="#">COURSES</a>
+      <a href="register.html">REGISTRATION</a>
+      <a href="placement.html">PLACEMENTS</a>
+      <a href="about.html">ABOUT US</a>
+      <a href="#">FAQ</a>
+      <a href="#">CONTACT US</a>
+      <a href="#">REVIEWS</a>
+    </nav>
+  </header>
+  <hr>
+  <section class="right-panel">
+    <h1>Course Registration at SCOPE INDIA</h1>
+
+    <h2>Center Of Software,Networking & Cloud Education</h2>
+    <p> one of india's best Training destinations for software,Networking,DevOps and Cloud Computing courses with 18
+      years of industrial experiance.Over
+      1,000 students find their dream careers each year, and we have assisted more than 15,000 studend so for.
+    </p>
+  </section>
+  <div class="reg">
+  <div class="form-container">
+      <form>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="box">
+            <label>Full Name (required)</label>
+            <input type="text" class="form-control" required>
+            </div>
+        
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+            <label>Date of Birth (required)</label>
+            <input type="date" class="form-control" required>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+          <label>Gender (required)</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender">
+              <label class="form-check-label">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender">
+              <label class="form-check-label">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender">
+              <label class="form-check-label">Other</label>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box">
+            <label>Educational Qualification</label>
+            <input type="text" class="form-control">
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+            <label>Mobile Number (required)</label>
+            <input type="number" class="form-control" required>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+            <label>Email (required)</label>
+            <input type="email" class="form-control" required>
+          </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box">
+            <label>Guardian’s Name</label>
+            <input type="text" class="form-control">
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+            <label>Guardian’s Occupation</label>
+            <input type="text" class="form-control">
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+            <label>Guardian’s Mobile</label>
+            <input type="number" class="form-control">
+          </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box">
+            <label>Choose your course (required)</label>
+            <select class="form-select" required>
+              <option selected>Choose your course!</option>
+              <option>Python Full Stack</option>
+              <option>Java Full Stack</option>
+              <option>Cloud Computing</option>
+            </select>
+          </div>
+          </div>
+          
+           <div class="col-md-4">
+            <div class="box">
+            <label>Training Mode (required)</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="mode">
+              <label class="form-check-label">Live Online</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="mode">
+              <label class="form-check-label">Classroom</label>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+    <label class="form-label">Address</label>
+          <input type="text" class="form-control">
+        </div>
+          </div>
+
+        <div class="col-md-4">
+          <div class="box">
+          <label class="form-label">Country</label>
+          <input type="text" class="form-control">
+        </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="box">
+          <label class="form-label">State</label>
+          <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="box">
+          <label class="form-label">City</label>
+          <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="box">
+          <label class="form-label">PIN / Zip Code</label>
+          <input type="text" class="form-control">
+        </div>
+        </div>
+      
+      <div class="col-md-4">
+            <div class="box">
+          <label>Preferred Training Timings (required)</label><br>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Between 8am - 10am</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Between 9am - 1pm</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Between 1pm - 6pm</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Between 6pm - 10pm</label>
+          </div>
+        </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box">
+            <label>SCOPE INDIA Location (required)</label><br>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="location">
+              <label class="form-check-label">Technopark TVM</label>
+              </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="location">
+              <label class="form-check-label">Thampanoor</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="location">
+              <label class="form-check-label">Kochi</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="location">
+              <label class="form-check-label">Nagercoil</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="location">
+              <label class="form-check-label">Online</label>
+            </div>
+          </div>
+          </div>
+      <div class="btn">
+        <button type="submit" class="btn-custom">Complete Registration </button>
+      </div>
+    </form>
+    <div class="line"></div>
+  </div>
+  <div class="footer">
+    <p>We are located at Technopark TVM | Thampanoor TVM | Kochi, Kerala | Nagercoil, Tamil Nadu</p>
+    <p>📞 9745936073 (TPK) | 9745936073 (TVM) | 7592939481 (EKM) | 8075538165 (NGL)</p>
+    <p>✉️ info@scopeindia.org</p>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
